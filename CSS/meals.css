@@ -1,0 +1,409 @@
+.meals-section{
+  padding: 9rem 0;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+}
+
+.meals-list{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  max-width: 120rem;
+  margin: 0 auto;
+  column-gap: 6rem;
+}
+.meal-item{
+  box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.meal-item:hover{
+  transform:translatey(-1.2rem)
+
+}
+
+.meal-img{
+  max-width: 100%;
+}
+.meal-title{
+  
+  font-size: 2.4rem;
+  color: #333;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+ 
+}
+
+.meal-properties{
+  list-style:none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.6rem;
+  /* font-weight: 400; */
+  /* padding: 0 auto; */
+  
+}
+.meals-proprty{
+  /* padding: 0 5rem; */
+  display:inline-flex;
+  align-items: center;
+  gap: 1.5;
+}
+.meals-proprty-icon{
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-right: 2rem;
+  color: #e67e22;
+  
+}
+.tag{
+  display: inline-block;
+  
+ 
+background-color: #51cf66;
+font-size: 1.2rem;
+border-radius: 3rem;
+font-weight: 500;
+padding: 0.75rem 1.5rem;
+margin-right: 1.2rem;
+}
+.meal-content{
+  padding: 3rem 4rem 4rem 6rem;
+}
+.diet-list{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.diet-items{
+  list-style: none;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+.list-icon{
+  color: #e67e22;
+  width: 3rem;
+  height: 3rem;
+}
+.more-receipes {
+  padding: 4rem 0;
+  font-size: 1.8rem;
+  text-align: center;
+ 
+}
+.more-receipes a:link, .more-receipes a:visited{
+  color: #e67e22;
+  display: inline-block;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid currentColor;
+  transition: all 0.3s;
+}
+.more-receipes a:hover,.more-receipes a:active{
+  color: #cf711f;
+  border-bottom:0;
+  font-size: 2rem;
+}
+.meals-section-heading{
+  text-align: center;
+}
+/* ******TESTIMONIALS SECTION****** */
+.section-testimonials{
+  background-color: #fdf2e9;
+  
+   display: grid;
+  grid-template-columns: 50fr 50fr;
+  align-items: center;
+ 
+}
+.testimonial-reviews-section{
+  padding: 5rem;
+}
+.testimonial-reviews{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  /* padding: 9rem 0; */
+  
+}
+.reviewer-img{
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+.reviewer-quote{
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.reviewer-name{
+  font-size: 1.4rem;
+  color: #333;
+   font-weight: 400;
+}
+.reciepe-image{
+  overflow:scroll;
+}
+.reciepe-image img{
+  display: block;
+  max-width: 100%;
+  transition: all 0.4sec;
+} 
+.reciepe-image img:hover{
+  transform:scale(1.1);
+}
+
+.testimonial-gallery{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+
+}
+/* *******PRICING-SECTION******* */
+.pricing-section{
+  padding: 9rem 0;
+  /* margin: 0 25rem; */
+}
+.pricing-container{
+   margin: 0 25rem;
+}
+.pricing-section-heading{
+  padding-left: 8rem;
+}
+
+.pricing-plans{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 4rem;
+}
+.pricing-plan{
+  width: 80%;
+  /* border: 1px solid #f1ac70; */
+  border-radius: 1.5rem;
+  background-color: #fdf2e9;
+}
+.starter{
+  justify-self: end;
+}
+.plan-header{
+  text-align: center;
+}
+.plan-type{
+  margin-top: 3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #cf711f;
+  margin-bottom: 3rem;
+}
+.plan-price{
+  font-size: 5.4rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.plan-month{
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+/* .COMPLETE::after{
+  content: "BEST PLAN";
+  position: absolute;
+  top: 6%;
+  right: -18%;
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+} */
+.signup{
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.plan-features{
+  padding: 0 3rem;
+  margin-bottom: 4rem;
+}
+.taxes{
+  margin: 4rem 0;
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 400;
+}
+/* ***** omnifood-features ***** */
+.omnifood-features{
+  /* padding: 0 9rem; */
+  margin-top: 7rem;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 7rem;
+
+  padding: 0 13rem;
+}
+.feature-logo{
+ /*  */
+  padding: 1.5rem;
+  background-color: #fdf2e9;
+  border-radius: 50%;
+  color: #e67e22;
+  width: 3.2rem;
+  height: 3.2rem;
+  margin-bottom: 2.5rem;
+}
+.feature-title{
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+
+}
+.feature-description{
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+/* ***** omnifood-signup **** */
+.section-signup{
+  padding: 9.5rem 0;
+  border-radius: 1.5rem;
+}
+.container-cta{
+  overflow: hidden;
+  border-radius: 1.5rem;
+  margin:  0 13rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* background-color: #e67e22; */
+  height: 50rem;
+  background-image:linear-gradient( to right, #eb984e,#e67e22);
+}
+.signup-image{
+  background-image:linear-gradient( to bottom, #b36623a2,#e67d223c),url("../images/eating.jpg") ;
+  background-size: cover;
+  background-position: center;
+}
+.signup-box-heading{
+  padding: 6.5rem ;
+  /* text-align: center; */
+}
+.signup-box-headingprimary{
+  margin-bottom: 4rem;
+  font-size: 4.5rem;
+  color: #333;
+}
+.signup-box-headingsecondary{
+  line-height: 1.5;
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: 500;
+}
+.signupform{
+  padding: 6.5rem;
+  padding-top: 0rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+.signupform label{
+  color: #333;
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+
+}
+.signupform input,.signupform select
+{
+  width: 100%;
+  /* height: 5rem; */
+  border-radius: 10px;
+  font-size: 2rem;
+  padding: 1.2rem;
+ border: none;
+ background-color: #fdf2e9;
+  
+}
+
+.signupform button{
+  width: 100%;
+  height: 4.5rem;
+  align-self: end;
+  border-radius: 1rem;
+  border: none;
+  font-size: 2.4rem;
+  font-weight: 500;
+font-size: 2rem;
+  /* padding: 1.2rem; */
+  
+}
+/* ******* footer ***** */
+
+.footer-section{
+  border-top: 1px solid #eee;
+  padding: 9.6rem 0;
+  /* background-color: #fdf2e9; */
+}
+.grid-5-columns{
+  gap: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 0 9rem;
+
+}
+.company-logo{
+  display: flex;
+  flex-direction: column;
+}
+.social-platform-links{
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin-top: auto;
+}
+.social-icon{
+  width: 2rem;
+  height: 2rem;
+  color: #333;
+}
+.social-icon:hover{
+  color: #eb984e;
+}
+.website-logo{
+  display: block;
+  /* margin-bottom: 3rem; */
+}
+.copyright{
+  margin-top: auto;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+.address{
+  font-style: initial;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.foooter-heading{
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.footer-nav{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none; 
+}
+
+.foooter-link:link,.foooter-link:visited{
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #333;
+  transition: all 0.3s;
+}
+.foooter-link:active,.foooter-link:hover{
+  color:#eb984e;
+}
